@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1908EEAF226F05BA00E03FD5 /* DGCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE51226F05BA00E03FD5 /* DGCViewController.swift */; };
+		1908EEB0226F05BA00E03FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1908EE52226F05BA00E03FD5 /* Assets.xcassets */; };
+		1908EEB1226F05BA00E03FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1908EE53226F05BA00E03FD5 /* LaunchScreen.storyboard */; };
+		1908EEB2226F05BA00E03FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1908EE55226F05BA00E03FD5 /* Main.storyboard */; };
+		1908EEB4226F05BA00E03FD5 /* DGCPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE5B226F05BA00E03FD5 /* DGCPagingViewController.swift */; };
+		1908EEB5226F05BA00E03FD5 /* DGCPagingListBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE5C226F05BA00E03FD5 /* DGCPagingListBaseView.swift */; };
+		1908EEBA226F05BA00E03FD5 /* DGCPagingViewTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE62226F05BA00E03FD5 /* DGCPagingViewTableHeaderView.swift */; };
+		1908EEBB226F05BA00E03FD5 /* DGCNaviItemCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE64226F05BA00E03FD5 /* DGCNaviItemCustomViewController.swift */; };
+		1908EEBC226F05BA00E03FD5 /* DGCLoadDataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE67226F05BA00E03FD5 /* DGCLoadDataListViewController.swift */; };
+		1908EEBD226F05BA00E03FD5 /* DGCLoadDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE68226F05BA00E03FD5 /* DGCLoadDataViewController.swift */; };
+		1908EEBE226F05BA00E03FD5 /* UIWindow+JXSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE6A226F05BA00E03FD5 /* UIWindow+JXSafeArea.swift */; };
+		1908EEBF226F05BA00E03FD5 /* DGCLoadDataCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE6B226F05BA00E03FD5 /* DGCLoadDataCustomViewController.swift */; };
+		1908EEC0226F05BA00E03FD5 /* DGCLoadDataCustomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE6C226F05BA00E03FD5 /* DGCLoadDataCustomListViewController.swift */; };
+		1908EEC1226F05BA00E03FD5 /* DGCLoadDataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE6D226F05BA00E03FD5 /* DGCLoadDataDetailViewController.swift */; };
+		1908EEC2226F05BA00E03FD5 /* DGCNaviSegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE6F226F05BA00E03FD5 /* DGCNaviSegmentedControlViewController.swift */; };
+		1908EEC3226F05BA00E03FD5 /* DGCSegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE70226F05BA00E03FD5 /* DGCSegmentedControlViewController.swift */; };
+		1908EEC4226F05BA00E03FD5 /* DGCNestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE72226F05BA00E03FD5 /* DGCNestViewController.swift */; };
+		1908EEC5226F05BA00E03FD5 /* DGCNestChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE73226F05BA00E03FD5 /* DGCNestChildViewController.swift */; };
+		1908EEC6226F05BA00E03FD5 /* DGCTitleImageSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE75226F05BA00E03FD5 /* DGCTitleImageSettingViewController.swift */; };
+		1908EEC7226F05BA00E03FD5 /* DGCCellCustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE76226F05BA00E03FD5 /* DGCCellCustomizeViewController.swift */; };
+		1908EEC8226F05BA00E03FD5 /* DGCIndicatorCustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE77226F05BA00E03FD5 /* DGCIndicatorCustomizeViewController.swift */; };
+		1908EEC9226F05BA00E03FD5 /* DGCListBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE78226F05BA00E03FD5 /* DGCListBaseViewController.swift */; };
+		1908EECA226F05BA00E03FD5 /* DGCTestListBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE79226F05BA00E03FD5 /* DGCTestListBaseView.swift */; };
+		1908EECB226F05BA00E03FD5 /* DGCContentBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE7A226F05BA00E03FD5 /* DGCContentBaseViewController.swift */; };
+		1908EECC226F05BA00E03FD5 /* DGCSpecialCustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE7B226F05BA00E03FD5 /* DGCSpecialCustomizeViewController.swift */; };
+		1908EECD226F05BA00E03FD5 /* DGCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE7C226F05BA00E03FD5 /* DGCAppDelegate.swift */; };
+		1908EECE226F05BA00E03FD5 /* DGCJXSegmentedMixcellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE7F226F05BA00E03FD5 /* DGCJXSegmentedMixcellDataSource.swift */; };
+		194A91E923C70124006BE6AB /* DGCGridCellExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194A91E823C70124006BE6AB /* DGCGridCellExampleViewController.swift */; };
+		195AC3D22338955000181212 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3C42338955000181212 /* dog.png */; };
+		195AC3D32338955000181212 /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3C52338955000181212 /* horse.png */; };
+		195AC3D42338955000181212 /* DGCJXSegmentedViewSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3C62338955000181212 /* DGCJXSegmentedViewSmall.png */; };
+		195AC3D52338955000181212 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3C72338955000181212 /* elephant.png */; };
+		195AC3D62338955000181212 /* lufei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3C82338955000181212 /* lufei.jpg */; };
+		195AC3D72338955000181212 /* dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3C92338955000181212 /* dragon.png */; };
+		195AC3D82338955000181212 /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3CA2338955000181212 /* chicken.png */; };
+		195AC3D92338955000181212 /* sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3CB2338955000181212 /* sheep.png */; };
+		195AC3DA2338955000181212 /* cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3CC2338955000181212 /* cow.png */; };
+		195AC3DB2338955000181212 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3CD2338955000181212 /* light.png */; };
+		195AC3DC2338955000181212 /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3CE2338955000181212 /* frog.png */; };
+		195AC3DD2338955000181212 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3CF2338955000181212 /* car.png */; };
+		195AC3DE2338955000181212 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3D02338955000181212 /* monkey.png */; };
+		195AC3DF2338955000181212 /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 195AC3D12338955000181212 /* pig.png */; };
+		197927AF26203F2800BDA8AE /* DGCJXPagingMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197927AA26203F2800BDA8AE /* DGCJXPagingMainTableView.swift */; };
+		197927B026203F2800BDA8AE /* DGCJXPagingSmoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197927AB26203F2800BDA8AE /* DGCJXPagingSmoothView.swift */; };
+		197927B126203F2800BDA8AE /* DGCJXPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197927AC26203F2800BDA8AE /* DGCJXPagingView.swift */; };
+		197927B226203F2800BDA8AE /* DGCJXPagingListRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197927AD26203F2800BDA8AE /* DGCJXPagingListRefreshView.swift */; };
+		197927B326203F2800BDA8AE /* DGCJXPagingListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197927AE26203F2800BDA8AE /* DGCJXPagingListContainerView.swift */; };
+		19F1D2F92339B0D100EEFB77 /* DGCJXSegmentedView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1908F030226F14E000E03FD5 /* DGCJXSegmentedView.framework */; };
+		19F1D2FA2339B0D100EEFB77 /* DGCJXSegmentedView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1908F030226F14E000E03FD5 /* DGCJXSegmentedView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8168092249CCB9900837DEC /* DGCPagingListBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8168091249CCB9900837DEC /* DGCPagingListBaseCell.swift */; };
+		B28C5F1C2BCE492600AC384B /* DGCTitleConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C5F1B2BCE492600AC384B /* DGCTitleConfigurationViewController.swift */; };
+		B2FCEB812BCE13A80046A814 /* DGCListCacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCEB802BCE13A80046A814 /* DGCListCacheViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1908F02B226F0E7D00E03FD5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19F1D2FA2339B0D100EEFB77 /* DGCJXSegmentedView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1904AA2321D31F6400316F97 /* DGCJXSegmentedViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGCJXSegmentedViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1908EE51226F05BA00E03FD5 /* DGCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCViewController.swift; sourceTree = "<group>"; };
+		1908EE52226F05BA00E03FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1908EE54226F05BA00E03FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1908EE56226F05BA00E03FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1908EE5B226F05BA00E03FD5 /* DGCPagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCPagingViewController.swift; sourceTree = "<group>"; };
+		1908EE5C226F05BA00E03FD5 /* DGCPagingListBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCPagingListBaseView.swift; sourceTree = "<group>"; };
+		1908EE62226F05BA00E03FD5 /* DGCPagingViewTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCPagingViewTableHeaderView.swift; sourceTree = "<group>"; };
+		1908EE64226F05BA00E03FD5 /* DGCNaviItemCustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCNaviItemCustomViewController.swift; sourceTree = "<group>"; };
+		1908EE67226F05BA00E03FD5 /* DGCLoadDataListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCLoadDataListViewController.swift; sourceTree = "<group>"; };
+		1908EE68226F05BA00E03FD5 /* DGCLoadDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCLoadDataViewController.swift; sourceTree = "<group>"; };
+		1908EE6A226F05BA00E03FD5 /* UIWindow+JXSafeArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+JXSafeArea.swift"; sourceTree = "<group>"; };
+		1908EE6B226F05BA00E03FD5 /* DGCLoadDataCustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCLoadDataCustomViewController.swift; sourceTree = "<group>"; };
+		1908EE6C226F05BA00E03FD5 /* DGCLoadDataCustomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCLoadDataCustomListViewController.swift; sourceTree = "<group>"; };
+		1908EE6D226F05BA00E03FD5 /* DGCLoadDataDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCLoadDataDetailViewController.swift; sourceTree = "<group>"; };
+		1908EE6F226F05BA00E03FD5 /* DGCNaviSegmentedControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCNaviSegmentedControlViewController.swift; sourceTree = "<group>"; };
+		1908EE70226F05BA00E03FD5 /* DGCSegmentedControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCSegmentedControlViewController.swift; sourceTree = "<group>"; };
+		1908EE72226F05BA00E03FD5 /* DGCNestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCNestViewController.swift; sourceTree = "<group>"; };
+		1908EE73226F05BA00E03FD5 /* DGCNestChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCNestChildViewController.swift; sourceTree = "<group>"; };
+		1908EE75226F05BA00E03FD5 /* DGCTitleImageSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCTitleImageSettingViewController.swift; sourceTree = "<group>"; };
+		1908EE76226F05BA00E03FD5 /* DGCCellCustomizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCCellCustomizeViewController.swift; sourceTree = "<group>"; };
+		1908EE77226F05BA00E03FD5 /* DGCIndicatorCustomizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCIndicatorCustomizeViewController.swift; sourceTree = "<group>"; };
+		1908EE78226F05BA00E03FD5 /* DGCListBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCListBaseViewController.swift; sourceTree = "<group>"; };
+		1908EE79226F05BA00E03FD5 /* DGCTestListBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCTestListBaseView.swift; sourceTree = "<group>"; };
+		1908EE7A226F05BA00E03FD5 /* DGCContentBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCContentBaseViewController.swift; sourceTree = "<group>"; };
+		1908EE7B226F05BA00E03FD5 /* DGCSpecialCustomizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCSpecialCustomizeViewController.swift; sourceTree = "<group>"; };
+		1908EE7C226F05BA00E03FD5 /* DGCAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCAppDelegate.swift; sourceTree = "<group>"; };
+		1908EE7F226F05BA00E03FD5 /* DGCJXSegmentedMixcellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCJXSegmentedMixcellDataSource.swift; sourceTree = "<group>"; };
+		1908EE80226F05BA00E03FD5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1908F030226F14E000E03FD5 /* DGCJXSegmentedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DGCJXSegmentedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		194A91E823C70124006BE6AB /* DGCGridCellExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGCGridCellExampleViewController.swift; sourceTree = "<group>"; };
+		195AC3C42338955000181212 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		195AC3C52338955000181212 /* horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horse.png; sourceTree = "<group>"; };
+		195AC3C62338955000181212 /* DGCJXSegmentedViewSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DGCJXSegmentedViewSmall.png; sourceTree = "<group>"; };
+		195AC3C72338955000181212 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		195AC3C82338955000181212 /* lufei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lufei.jpg; sourceTree = "<group>"; };
+		195AC3C92338955000181212 /* dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon.png; sourceTree = "<group>"; };
+		195AC3CA2338955000181212 /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken.png; sourceTree = "<group>"; };
+		195AC3CB2338955000181212 /* sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheep.png; sourceTree = "<group>"; };
+		195AC3CC2338955000181212 /* cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cow.png; sourceTree = "<group>"; };
+		195AC3CD2338955000181212 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		195AC3CE2338955000181212 /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog.png; sourceTree = "<group>"; };
+		195AC3CF2338955000181212 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		195AC3D02338955000181212 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		195AC3D12338955000181212 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.png; sourceTree = "<group>"; };
+		197927AA26203F2800BDA8AE /* DGCJXPagingMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCJXPagingMainTableView.swift; sourceTree = "<group>"; };
+		197927AB26203F2800BDA8AE /* DGCJXPagingSmoothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCJXPagingSmoothView.swift; sourceTree = "<group>"; };
+		197927AC26203F2800BDA8AE /* DGCJXPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCJXPagingView.swift; sourceTree = "<group>"; };
+		197927AD26203F2800BDA8AE /* DGCJXPagingListRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCJXPagingListRefreshView.swift; sourceTree = "<group>"; };
+		197927AE26203F2800BDA8AE /* DGCJXPagingListContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGCJXPagingListContainerView.swift; sourceTree = "<group>"; };
+		A80CD84E24A1A73C00FF22C8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A80CD84F24A1A73C00FF22C8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		A8168091249CCB9900837DEC /* DGCPagingListBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGCPagingListBaseCell.swift; sourceTree = "<group>"; };
+		B28C5F1B2BCE492600AC384B /* DGCTitleConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGCTitleConfigurationViewController.swift; sourceTree = "<group>"; };
+		B2FCEB802BCE13A80046A814 /* DGCListCacheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGCListCacheViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1904AA2021D31F6400316F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F1D2F92339B0D100EEFB77 /* DGCJXSegmentedView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1904AA1A21D31F6400316F97 = {
+			isa = PBXGroup;
+			children = (
+				1908EE50226F05BA00E03FD5 /* DGCJXSegmentedViewExample */,
+				1904AA2421D31F6400316F97 /* Products */,
+				1908F02C226F0EA200E03FD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1904AA2421D31F6400316F97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1904AA2321D31F6400316F97 /* DGCJXSegmentedViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1908EE50226F05BA00E03FD5 /* DGCJXSegmentedViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				195AC3C32338955000181212 /* Image */,
+				1908EE51226F05BA00E03FD5 /* DGCViewController.swift */,
+				1908EE52226F05BA00E03FD5 /* Assets.xcassets */,
+				1908EE53226F05BA00E03FD5 /* LaunchScreen.storyboard */,
+				1908EE55226F05BA00E03FD5 /* Main.storyboard */,
+				1908EE59226F05BA00E03FD5 /* Special */,
+				1908EE74226F05BA00E03FD5 /* Common */,
+				1908EE7C226F05BA00E03FD5 /* DGCAppDelegate.swift */,
+				1908EE7D226F05BA00E03FD5 /* Custom */,
+				1908EE80226F05BA00E03FD5 /* Info.plist */,
+			);
+			path = DGCJXSegmentedViewExample;
+			sourceTree = "<group>";
+		};
+		1908EE59226F05BA00E03FD5 /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				B28C5F1A2BCE2BD000AC384B /* Cell */,
+				1908EE5A226F05BA00E03FD5 /* Personal */,
+				1908EE63226F05BA00E03FD5 /* NaviItemGesture */,
+				1908EE65226F05BA00E03FD5 /* LoadData */,
+				1908EE6E226F05BA00E03FD5 /* SegmentedControl */,
+				1908EE71226F05BA00E03FD5 /* Nest */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+		1908EE5A226F05BA00E03FD5 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				1908EE5B226F05BA00E03FD5 /* DGCPagingViewController.swift */,
+				1908EE5C226F05BA00E03FD5 /* DGCPagingListBaseView.swift */,
+				A8168091249CCB9900837DEC /* DGCPagingListBaseCell.swift */,
+				1908EE62226F05BA00E03FD5 /* DGCPagingViewTableHeaderView.swift */,
+				197927A926203F2800BDA8AE /* DGCJXPagingView */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		1908EE63226F05BA00E03FD5 /* NaviItemGesture */ = {
+			isa = PBXGroup;
+			children = (
+				1908EE64226F05BA00E03FD5 /* DGCNaviItemCustomViewController.swift */,
+			);
+			path = NaviItemGesture;
+			sourceTree = "<group>";
+		};
+		1908EE65226F05BA00E03FD5 /* LoadData */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCEB7F2BCE13840046A814 /* ListCache */,
+				1908EE66226F05BA00E03FD5 /* WithListContainerView */,
+				1908EE69226F05BA00E03FD5 /* ListCustom */,
+				1908EE6D226F05BA00E03FD5 /* DGCLoadDataDetailViewController.swift */,
+			);
+			path = LoadData;
+			sourceTree = "<group>";
+		};
+		1908EE66226F05BA00E03FD5 /* WithListContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				1908EE68226F05BA00E03FD5 /* DGCLoadDataViewController.swift */,
+				1908EE67226F05BA00E03FD5 /* DGCLoadDataListViewController.swift */,
+			);
+			path = WithListContainerView;
+			sourceTree = "<group>";
+		};
+		1908EE69226F05BA00E03FD5 /* ListCustom */ = {
+			isa = PBXGroup;
+			children = (
+				1908EE6A226F05BA00E03FD5 /* UIWindow+JXSafeArea.swift */,
+				1908EE6B226F05BA00E03FD5 /* DGCLoadDataCustomViewController.swift */,
+				1908EE6C226F05BA00E03FD5 /* DGCLoadDataCustomListViewController.swift */,
+			);
+			path = ListCustom;
+			sourceTree = "<group>";
+		};
+		1908EE6E226F05BA00E03FD5 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				1908EE6F226F05BA00E03FD5 /* DGCNaviSegmentedControlViewController.swift */,
+				1908EE70226F05BA00E03FD5 /* DGCSegmentedControlViewController.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		1908EE71226F05BA00E03FD5 /* Nest */ = {
+			isa = PBXGroup;
+			children = (
+				1908EE72226F05BA00E03FD5 /* DGCNestViewController.swift */,
+				1908EE73226F05BA00E03FD5 /* DGCNestChildViewController.swift */,
+			);
+			path = Nest;
+			sourceTree = "<group>";
+		};
+		1908EE74226F05BA00E03FD5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1908EE75226F05BA00E03FD5 /* DGCTitleImageSettingViewController.swift */,
+				1908EE76226F05BA00E03FD5 /* DGCCellCustomizeViewController.swift */,
+				1908EE77226F05BA00E03FD5 /* DGCIndicatorCustomizeViewController.swift */,
+				1908EE78226F05BA00E03FD5 /* DGCListBaseViewController.swift */,
+				1908EE79226F05BA00E03FD5 /* DGCTestListBaseView.swift */,
+				1908EE7A226F05BA00E03FD5 /* DGCContentBaseViewController.swift */,
+				1908EE7B226F05BA00E03FD5 /* DGCSpecialCustomizeViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1908EE7D226F05BA00E03FD5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				194A91E123C6FCC7006BE6AB /* GridCell */,
+				1908EE7E226F05BA00E03FD5 /* MixCell */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		1908EE7E226F05BA00E03FD5 /* MixCell */ = {
+			isa = PBXGroup;
+			children = (
+				1908EE7F226F05BA00E03FD5 /* DGCJXSegmentedMixcellDataSource.swift */,
+			);
+			path = MixCell;
+			sourceTree = "<group>";
+		};
+		1908F02C226F0EA200E03FD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1908F030226F14E000E03FD5 /* DGCJXSegmentedView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		194A91E123C6FCC7006BE6AB /* GridCell */ = {
+			isa = PBXGroup;
+			children = (
+				194A91E823C70124006BE6AB /* DGCGridCellExampleViewController.swift */,
+			);
+			path = GridCell;
+			sourceTree = "<group>";
+		};
+		195AC3C32338955000181212 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				195AC3C42338955000181212 /* dog.png */,
+				195AC3C52338955000181212 /* horse.png */,
+				195AC3C62338955000181212 /* DGCJXSegmentedViewSmall.png */,
+				195AC3C72338955000181212 /* elephant.png */,
+				195AC3C82338955000181212 /* lufei.jpg */,
+				195AC3C92338955000181212 /* dragon.png */,
+				195AC3CA2338955000181212 /* chicken.png */,
+				195AC3CB2338955000181212 /* sheep.png */,
+				195AC3CC2338955000181212 /* cow.png */,
+				195AC3CD2338955000181212 /* light.png */,
+				195AC3CE2338955000181212 /* frog.png */,
+				195AC3CF2338955000181212 /* car.png */,
+				195AC3D02338955000181212 /* monkey.png */,
+				195AC3D12338955000181212 /* pig.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		197927A926203F2800BDA8AE /* DGCJXPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				197927AA26203F2800BDA8AE /* DGCJXPagingMainTableView.swift */,
+				197927AB26203F2800BDA8AE /* DGCJXPagingSmoothView.swift */,
+				197927AC26203F2800BDA8AE /* DGCJXPagingView.swift */,
+				197927AD26203F2800BDA8AE /* DGCJXPagingListRefreshView.swift */,
+				197927AE26203F2800BDA8AE /* DGCJXPagingListContainerView.swift */,
+			);
+			path = DGCJXPagingView;
+			sourceTree = "<group>";
+		};
+		B28C5F1A2BCE2BD000AC384B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B28C5F1B2BCE492600AC384B /* DGCTitleConfigurationViewController.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B2FCEB7F2BCE13840046A814 /* ListCache */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCEB802BCE13A80046A814 /* DGCListCacheViewController.swift */,
+			);
+			path = ListCache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1904AA2221D31F6400316F97 /* DGCJXSegmentedViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1904AA3521D31F6700316F97 /* Build configuration list for PBXNativeTarget "DGCJXSegmentedViewExample" */;
+			buildPhases = (
+				1904AA1F21D31F6400316F97 /* Sources */,
+				1904AA2021D31F6400316F97 /* Frameworks */,
+				1904AA2121D31F6400316F97 /* Resources */,
+				1908F02B226F0E7D00E03FD5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGCJXSegmentedViewExample;
+			productName = naviOrderViewExample;
+			productReference = 1904AA2321D31F6400316F97 /* DGCJXSegmentedViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1904AA1B21D31F6400316F97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = jiaxin;
+				TargetAttributes = {
+					1904AA2221D31F6400316F97 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 1904AA1E21D31F6400316F97 /* Build configuration list for PBXProject "DGCJXSegmentedViewExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 1904AA1A21D31F6400316F97;
+			productRefGroup = 1904AA2421D31F6400316F97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1904AA2221D31F6400316F97 /* DGCJXSegmentedViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1904AA2121D31F6400316F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195AC3DE2338955000181212 /* monkey.png in Resources */,
+				195AC3D22338955000181212 /* dog.png in Resources */,
+				195AC3DC2338955000181212 /* frog.png in Resources */,
+				1908EEB2226F05BA00E03FD5 /* Main.storyboard in Resources */,
+				195AC3D32338955000181212 /* horse.png in Resources */,
+				195AC3DA2338955000181212 /* cow.png in Resources */,
+				195AC3D42338955000181212 /* DGCJXSegmentedViewSmall.png in Resources */,
+				195AC3DB2338955000181212 /* light.png in Resources */,
+				195AC3DF2338955000181212 /* pig.png in Resources */,
+				1908EEB0226F05BA00E03FD5 /* Assets.xcassets in Resources */,
+				195AC3D72338955000181212 /* dragon.png in Resources */,
+				195AC3D62338955000181212 /* lufei.jpg in Resources */,
+				195AC3D52338955000181212 /* elephant.png in Resources */,
+				195AC3D92338955000181212 /* sheep.png in Resources */,
+				195AC3DD2338955000181212 /* car.png in Resources */,
+				1908EEB1226F05BA00E03FD5 /* LaunchScreen.storyboard in Resources */,
+				195AC3D82338955000181212 /* chicken.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1904AA1F21D31F6400316F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8168092249CCB9900837DEC /* DGCPagingListBaseCell.swift in Sources */,
+				1908EEBD226F05BA00E03FD5 /* DGCLoadDataViewController.swift in Sources */,
+				197927B226203F2800BDA8AE /* DGCJXPagingListRefreshView.swift in Sources */,
+				1908EECA226F05BA00E03FD5 /* DGCTestListBaseView.swift in Sources */,
+				1908EEC7226F05BA00E03FD5 /* DGCCellCustomizeViewController.swift in Sources */,
+				B28C5F1C2BCE492600AC384B /* DGCTitleConfigurationViewController.swift in Sources */,
+				197927B026203F2800BDA8AE /* DGCJXPagingSmoothView.swift in Sources */,
+				1908EEC5226F05BA00E03FD5 /* DGCNestChildViewController.swift in Sources */,
+				B2FCEB812BCE13A80046A814 /* DGCListCacheViewController.swift in Sources */,
+				1908EEC2226F05BA00E03FD5 /* DGCNaviSegmentedControlViewController.swift in Sources */,
+				194A91E923C70124006BE6AB /* DGCGridCellExampleViewController.swift in Sources */,
+				1908EEC9226F05BA00E03FD5 /* DGCListBaseViewController.swift in Sources */,
+				1908EEC1226F05BA00E03FD5 /* DGCLoadDataDetailViewController.swift in Sources */,
+				1908EEB4226F05BA00E03FD5 /* DGCPagingViewController.swift in Sources */,
+				1908EEC8226F05BA00E03FD5 /* DGCIndicatorCustomizeViewController.swift in Sources */,
+				197927B126203F2800BDA8AE /* DGCJXPagingView.swift in Sources */,
+				1908EEBC226F05BA00E03FD5 /* DGCLoadDataListViewController.swift in Sources */,
+				1908EEC0226F05BA00E03FD5 /* DGCLoadDataCustomListViewController.swift in Sources */,
+				1908EEBB226F05BA00E03FD5 /* DGCNaviItemCustomViewController.swift in Sources */,
+				1908EEBA226F05BA00E03FD5 /* DGCPagingViewTableHeaderView.swift in Sources */,
+				1908EECD226F05BA00E03FD5 /* DGCAppDelegate.swift in Sources */,
+				1908EEAF226F05BA00E03FD5 /* DGCViewController.swift in Sources */,
+				197927AF26203F2800BDA8AE /* DGCJXPagingMainTableView.swift in Sources */,
+				197927B326203F2800BDA8AE /* DGCJXPagingListContainerView.swift in Sources */,
+				1908EEBE226F05BA00E03FD5 /* UIWindow+JXSafeArea.swift in Sources */,
+				1908EEC6226F05BA00E03FD5 /* DGCTitleImageSettingViewController.swift in Sources */,
+				1908EEC4226F05BA00E03FD5 /* DGCNestViewController.swift in Sources */,
+				1908EECC226F05BA00E03FD5 /* DGCSpecialCustomizeViewController.swift in Sources */,
+				1908EEC3226F05BA00E03FD5 /* DGCSegmentedControlViewController.swift in Sources */,
+				1908EECB226F05BA00E03FD5 /* DGCContentBaseViewController.swift in Sources */,
+				1908EEBF226F05BA00E03FD5 /* DGCLoadDataCustomViewController.swift in Sources */,
+				1908EECE226F05BA00E03FD5 /* DGCJXSegmentedMixcellDataSource.swift in Sources */,
+				1908EEB5226F05BA00E03FD5 /* DGCPagingListBaseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1908EE53226F05BA00E03FD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1908EE54226F05BA00E03FD5 /* Base */,
+				A80CD84E24A1A73C00FF22C8 /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1908EE55226F05BA00E03FD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1908EE56226F05BA00E03FD5 /* Base */,
+				A80CD84F24A1A73C00FF22C8 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1904AA3321D31F6700316F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		1904AA3421D31F6700316F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1904AA3621D31F6700316F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CUHY5967Q2;
+				INFOPLIST_FILE = "$(SRCROOT)/DGCJXSegmentedViewExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkey.DGCJXSegmentedViewExample.33;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1904AA3721D31F6700316F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/DGCJXSegmentedViewExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.DGCJXSegmentedViewExample.33334;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1904AA1E21D31F6400316F97 /* Build configuration list for PBXProject "DGCJXSegmentedViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1904AA3321D31F6700316F97 /* Debug */,
+				1904AA3421D31F6700316F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1904AA3521D31F6700316F97 /* Build configuration list for PBXNativeTarget "DGCJXSegmentedViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1904AA3621D31F6700316F97 /* Debug */,
+				1904AA3721D31F6700316F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1904AA1B21D31F6400316F97 /* Project object */;
+}
